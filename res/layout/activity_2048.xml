@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_menu_back"
+    tools:context=".game2048.Activity2048">
+
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_superdark_back"
+        android:elevation="6dp"
+        android:fontFamily="@font/alata"
+        android:text="Score : "
+        android:textAlignment="textStart"
+        android:textColor="@color/light_text"
+        android:textSize="20dp"
+        android:translationZ="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textScore2" />
+
+    <TextView
+        android:id="@+id/textScore2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_superdark_back"
+        android:elevation="6dp"
+        android:fontFamily="@font/alata"
+        android:text="Highscore : "
+        android:textAlignment="textStart"
+        android:textColor="@color/light_text"
+        android:textSize="20dp"
+        android:translationZ="40dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="409dp"
+        android:layout_height="318dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/td00"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/td01"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/td02"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/td03"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fadingEdge="horizontal|vertical"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/td10"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/td11"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/td12"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/td13"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/td20"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/td21"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/td22"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/td23"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/td30"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/td31"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/td32"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/td33"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="409dp"
+        android:layout_height="318dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/t00"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/t01"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/t02"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/t03"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fadingEdge="horizontal|vertical"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/t10"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/t11"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/t12"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/t13"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/t20"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/t21"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/t22"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/t23"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/t30"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/t31"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/t32"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/t33"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:autoSizeMaxTextSize="55sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_0"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+
+                android:text=""
+                android:textAlignment="center" />
+        </TableRow>
+    </TableLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/NewGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="148dp"
+
+        android:background="@drawable/btn_light_back"
+        android:elevation="6dp"
+        android:fontFamily="@font/alata"
+        android:stateListAnimator="@null"
+        android:text="@string/btn_2048_new_game"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_leaderbrd_text"
+        android:textSize="20sp"
+        android:translationZ="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

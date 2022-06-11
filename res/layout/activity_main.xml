@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_menu_back"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/btn_light_back"
+        android:elevation="6dp"
+        android:stateListAnimator="@null"
+        android:text="@string/btn_logout"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_logout_text"
+        android:textSize="16sp"
+        android:translationZ="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck"
+        android:fontFamily="@font/alata"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="210dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2.5dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/icon_2048"
+                android:contentDescription="1"
+                android:src="@drawable/icon_2048"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2.5dp"
+                android:background="@drawable/tictac"
+                android:contentDescription="1"
+                android:src="@drawable/tictac" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2.5dp"
+                android:background="@drawable/tetris_icoin"
+                android:contentDescription="1" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2.5dp"
+                android:background="@drawable/minesw"
+                android:contentDescription="1"
+                android:src="@drawable/minesw" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnLeaderBrd"
+        android:layout_width="157dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/btn_light_back"
+        android:elevation="6dp"
+        android:stateListAnimator="@null"
+        android:text="@string/btn_ldrboard"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_leaderbrd_text"
+        android:textSize="16sp"
+        android:translationZ="40dp"
+        android:fontFamily="@font/alata"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/btn_dark_back"
+        android:contextClickable="false"
+        android:elevation="60dp"
+        android:gravity="center_vertical"
+        android:text="@string/nickname"
+        android:textAlignment="textEnd"
+        android:textColor="@color/btn_leaderbrd_text"
+        android:textSize="16sp"
+        android:translationZ="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/btnLogout"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/alata"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

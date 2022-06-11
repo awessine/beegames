@@ -1,0 +1,1701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tetrisRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_menu_back">
+
+    <TableLayout
+        android:id="@+id/tableLayout5"
+        android:layout_width="255dp"
+        android:layout_height="479dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/btn_dark_back"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block01"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block02"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block03"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block04"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block05"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block06"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block07"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block08"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block09"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block010"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block11"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block12"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block13"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block14"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block15"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block16"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block17"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block18"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block19"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block110"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block21"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block22"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block23"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block24"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block25"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block26"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block27"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block28"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block29"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block210"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block31"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block32"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block33"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block34"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block35"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block36"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block37"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block38"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block39"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block310"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block41"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block42"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block43"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block44"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block45"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block46"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block47"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block48"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block49"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block410"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block51"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block52"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block53"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block54"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block55"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block56"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block57"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block58"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block59"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block510"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block61"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block62"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block63"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block64"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block65"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block66"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block67"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block68"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block69"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block610"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block71"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block72"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block73"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block74"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block75"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block76"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block77"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block78"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block79"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block710"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block81"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block82"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block83"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block84"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block85"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block86"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block87"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block88"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block89"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block810"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block91"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block92"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block93"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block94"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block95"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block96"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block97"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block98"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block99"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block910"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block101"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block102"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block103"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block104"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block105"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block106"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block107"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block108"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block109"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block1010"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block111"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block112"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block113"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block114"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block115"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block116"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block117"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block118"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block119"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block1110"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block121"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block122"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block123"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block124"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block125"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block126"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block127"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block128"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block129"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block1210"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block131"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block132"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block133"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block134"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block135"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block136"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block137"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block138"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block139"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block1310"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block141"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block142"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block143"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block144"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block145"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block146"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block147"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block148"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block149"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block1410"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block151"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block152"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block153"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block154"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block155"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block156"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block157"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block158"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block159"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block1510"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block161"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block162"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block163"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block164"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block165"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block166"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block167"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block168"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block169"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block1610"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block171"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block172"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block173"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block174"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block175"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block176"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block177"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block178"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block179"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block1710"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block181"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block182"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block183"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block184"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block185"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block186"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block187"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block188"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block189"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block1810"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block191"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block192"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block193"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block194"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block195"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block196"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block197"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block198"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block199"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block1910"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/btn_light_back"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/block201"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block202"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block203"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block204"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block205"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block206"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block207"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block208"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block209"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/block2010"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+
+                android:text=" " />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout5">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/leftBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/back_arrow_left" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/rotateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/rotate"
+            android:textColor="@color/light_text" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/rightBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/back_arrow_right" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tetrisScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_superdark_back"
+            android:elevation="6dp"
+            android:fontFamily="@font/alata"
+            android:text="Score : 0"
+            android:textAlignment="textStart"
+            android:textColor="@color/light_text"
+            android:textSize="20dp"
+            android:translationZ="40dp" />
+
+        <TextView
+            android:id="@+id/tetrisHighscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_superdark_back"
+            android:elevation="6dp"
+            android:fontFamily="@font/alata"
+            android:text="Highscore : 0"
+            android:textAlignment="textStart"
+            android:textColor="@color/light_text"
+            android:textSize="20dp"
+            android:translationZ="40dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
